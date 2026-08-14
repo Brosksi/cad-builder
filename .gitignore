@@ -1,0 +1,35 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyc
+
+# CAD build outputs
+*.stl
+*.FCStd
+*.svg
+*.png
+*.jpg
+*.jpeg
+screenshots/
+STLs/
+Step*/
+cad-output/
+
+# Temp / cache
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.log
+
+# Bootstrap summary (auto-generated per project)
+BOOTSTRAP.md
+
+# Environment / secrets
+.env
+.env.local
+*.key
+credentials*
+secrets*
